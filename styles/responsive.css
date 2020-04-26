@@ -146,14 +146,14 @@
 	}
 	.home_search
 	{
-		width: 100%;
+		width: 100px;
 		height: 0;
 		background: #FFFFFF;
 		z-index: 1;
 	}
 	.home_search_container
 	{
-			position: absolute;
+			position: relative;
 			top: -175px;
 			width: calc(60% + 61px);
 			left: 60%;
