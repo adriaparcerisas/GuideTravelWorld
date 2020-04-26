@@ -147,6 +147,8 @@
 	.home_search
 	{
 		height: auto;
+		display: flex;
+		align-items: center;
 	}
 	.home_search_container
 	{
@@ -355,7 +357,6 @@
 	{
 		height: 42px;
 		font-size: 12px;
-		width: 35%
 	}
 	.destination_title a
 	{
