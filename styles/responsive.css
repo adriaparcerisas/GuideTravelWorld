@@ -152,7 +152,7 @@
 	{
 		position: relative;
 		top: auto;
-		width: 300%;
+		width: 50%;
 		left: auto;
 	}
 	.home_search_content
@@ -162,12 +162,12 @@
 	}
 	.search_input
 	{
-		width: 300%;
+		width: 50%;
 		margin-bottom: 12px;
 	}
 	.home_search_button
 	{
-		width: 300%;
+		width: 50%;
 		margin-top: 10px;
 	}
 	.intro_background
