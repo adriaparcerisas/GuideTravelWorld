@@ -261,12 +261,12 @@ section
 }
 .section_title
 {
-	color: #181818;
+	color: #766663;
 	margin-top: 26px;
 }
 .section_title_services
 {
-	color: #181818;
+	color: #766663;
 	margin-top: 16px;
 }
 .button
@@ -339,7 +339,8 @@ section
 }
 .logo a
 {
-	font-family: "Calibri Light";
+	font-family: Courier New, monospace;
+	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: 50;
 	color: #FFFFFF;
@@ -500,7 +501,8 @@ section
 }
 .menu_logo a
 {
-	font-family: "Calibri Light";
+	font-family: Courier New, monospace;
+	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: 50;
 	color: #FFFFFF;
@@ -571,7 +573,7 @@ section
 {
 	font-size: 48px;
 	font-weight: 500;
-	color: #181818;
+	color: #766663;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -612,7 +614,7 @@ section
 }
 .menu_social ul li a i:hover
 {
-	color: #181818;
+	color: #766663;
 }
 
 /*********************************
@@ -622,7 +624,7 @@ section
 .home
 {
 	width: 100%;
-	height: 586px;
+	height: 486px;
 }
 .home_slider_container
 {
@@ -762,7 +764,7 @@ section
 {
 	width: 161px;
 	height: 52px;
-	background: #181818;
+	background: #766663;
 	color: #FFFFFF;
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
@@ -786,7 +788,7 @@ section
 }
 .about_row
 {
-	margin-top: 95px;
+	margin-top: 2px;
 }
 .services_row
 {
@@ -801,12 +803,13 @@ section
 {
 	font-size: 18px;
 	font-weight: 700;
-	color: #181818;
+	color: #766663;
 	line-height: 1.66;
 }
 .about_text
 {
 	margin-top: 35px;
+	text-align: justify;
 }
 .about_button
 {
@@ -814,7 +817,10 @@ section
 }
 .about_image
 {
-	width: 100%;
+	width: 80%;
+	max-height: 80%;
+	margin-left: 10%;
+	margin-bottom: 40px;
 }
 .services_image
 {
@@ -869,7 +875,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 60px;
 	font-weight: 500;
-	color: #181818;
+	color: #766663;
 	line-height: 0.75;
 	margin-top: 35px;
 }
@@ -927,7 +933,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 	font-weight: 500;
-	color: #181818;
+	color: #766663;
 	line-height: 1.1;
 }
 .why_text
@@ -1189,4 +1195,117 @@ section
 .footer_contact_list ul li:not(:last-child)
 {
 	margin-bottom: 7px;
+}
+
+
+/*********************************
+7.2 Elements - Accordions
+*********************************/
+
+.elements_accordions_tabs
+{
+	margin-top: 106px;
+}
+.elements_accordions
+{
+	width: 100%;
+}
+.accordions_tabs
+{
+	width: 100%;
+	background: #FFFFFF;
+	margin-top: 100px;
+}
+.accordions
+{
+	margin-top: 60px;
+}
+.accordion_container:not(:last-child)
+{
+	margin-bottom: 14px;
+}
+.accordion
+{
+	height: 59px;
+	width: 100%;
+	border-radius: 10px;
+	background: #f2f5f6;
+	padding-left: 33px;
+	cursor: pointer;
+	font-family: 'Oswald', sans-serif;
+	color: #464646;
+	font-size: 18px;
+	font-weight: 400;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.accordion div
+{
+	max-width: 90%;
+	overflow: hidden;
+	white-space: nowrap;
+}
+.accordion::after
+{
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+	right: 29px;
+	font-family: 'FontAwesome';
+	content: '\f063';
+	font-size: 8px;
+	color: #464646;
+	font-weight: 500;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.accordion.active
+{
+	background: #766663;
+	color: #FFFFFF;
+}
+.accordion.active::after
+{
+	content: '-';
+	color: #FFFFFF;
+}
+.accordion_panel
+{
+	max-height: 0px;
+	overflow: hidden;
+	-webkit-transition: all 500ms ease;
+	-moz-transition: all 500ms ease;
+	-ms-transition: all 500ms ease;
+	-o-transition: all 500ms ease;
+	transition: all 500ms ease;
+}
+.accordion_panel > div
+{
+	padding-bottom: 11px;
+}
+.accordion_panel p
+{
+	font-size: 14px;
+	font-weight: 500;
+	padding-top: 33px;
+	color: #828282;
+	text-align: justify;
 }

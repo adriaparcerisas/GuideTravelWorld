@@ -291,7 +291,8 @@ section
 }
 .logo a
 {
-	font-family: "Calibri Light";
+	font-family: Courier New, monospace;
+	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: 50;
 	color: #FFFFFF;
@@ -451,7 +452,8 @@ section
 }
 .menu_logo a
 {
-	font-family: "Calibri Light";
+	font-family: Courier New, monospace;
+	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: 50;
 	color: #FFFFFF;
@@ -522,7 +524,7 @@ section
 {
 	font-size: 48px;
 	font-weight: 500;
-	color: #181818;
+	color: #766663;
 	-webkit-transition: all 200ms ease;
 	-moz-transition: all 200ms ease;
 	-ms-transition: all 200ms ease;
@@ -563,7 +565,7 @@ section
 }
 .menu_social ul li a i:hover
 {
-	color: #181818;
+	color: #766663;
 }
 
 /*********************************
@@ -573,7 +575,7 @@ section
 .home
 {
 	width: 100%;
-	height: 834px;
+	height: 700px;
 }
 .home_slider_container
 {
@@ -845,7 +847,7 @@ section
 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
-	color: #181818;
+	color: #766663;
 	font-weight: 400;
 }
 
@@ -894,7 +896,7 @@ section
 	left: 16px;
 	width: 118px;
 	height: 36px;
-	background: #181818;
+	background: #766663;
 }
 .spec_offer a
 {
@@ -930,7 +932,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 30px;
 	font-weight: 400;
-	color: #181818;
+	color: #766663;
 }
 .destination_subtitle
 {
@@ -940,7 +942,7 @@ section
 {
 	font-size: 16px;
 	font-weight: 700;
-	color: #181818;
+	color: #766663;
 	margin-top: 16px;
 }
 
@@ -957,7 +959,7 @@ section
 .testimonials .section_title,
 .testimonials .section_subtitle
 {
-	color: #FFFFFF;
+	color: #766663;
 }
 .testimonials_slider_container
 {
@@ -967,8 +969,9 @@ section
 {
 	font-size: 30px;
 	font-style: italic;
+	font-weight: bold;
 	font-family:'Calibri Light';
-	color: #FFFFFF;
+	color: #766663;
 }
 .testimonial_author
 {
@@ -981,7 +984,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 18px;
 	font-weight: 400;
-	color: #FFFFFF;
+	color: #766663;
 	text-transform: uppercase;
 	line-height: 0.85;
 }
@@ -990,7 +993,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 12px;
 	font-weight: 400;
-	color: #FFFFFF;
+	color: #766663;
 	text-transform: uppercase;
 	line-height: 0.85;
 	margin-left: 6px;
@@ -1087,7 +1090,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 48px;
 	font-weight: 400;
-	color: #181818;
+	color: #766663;
 	line-height: 0.75;
 }
 .news_post_date div:last-child
@@ -1115,7 +1118,7 @@ section
 	font-family: 'Oswald', sans-serif;
 	font-size: 28px;
 	font-weight: 400;
-	color: #181818;
+	color: #766663;
 }
 .news_post_category
 {

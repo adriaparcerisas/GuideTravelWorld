@@ -331,6 +331,26 @@
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+	.accordion
+	{
+		height: 40px;
+		font-size: 14px;
+		padding-left: 23px;
+	}
+	.tab
+	{
+		height: 40px;
+		font-size: 14px;
+		line-height: 40px;
+	}
+	.accordion_panel p
+	{
+		font-size: 13px;
+	}
+	.milestone_counter
+	{
+		font-size: 48px;
+	}
 }
 
 /************
