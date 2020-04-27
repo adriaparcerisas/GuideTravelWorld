@@ -783,8 +783,14 @@ section
 .about
 {
 	width: 100%;
-	background: #FFFFFF;
+	background: #FBF7EC;
 	padding-top: 115px;
+}
+.about .container
+{
+	width: 100%;
+	background: #FBF7EC;
+	border-bottom: solid 2px #766663;
 }
 .about_row
 {
@@ -846,14 +852,21 @@ section
 .milestones
 {
 	width: 100%;
-	background: #FFFFFF;
+	background: #FBF7EC;
 	padding-top: 115px;
 	padding-bottom: 115px;
+}
+.milestones .container
+{
+	width: 100%;
+	background: #FBF7EC;
+	padding-bottom: 115px;
+	border-bottom: solid 2px #766663;
 }
 .milestones_services
 {
 	width: 100%;
-	background: #FFFFFF;
+	background: #FBF7EC;
 	padding-bottom: 115px;
 }
 .milestone
@@ -967,8 +980,7 @@ section
 .team
 {
 	width: 100%;
-	background: #FFFFFF;
-	padding-top: 115px;
+	background: #FBF7EC;
 	padding-bottom: 67px;
 }
 .team_row

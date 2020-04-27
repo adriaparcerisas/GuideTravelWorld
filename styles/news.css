@@ -776,7 +776,7 @@ section
 {
 	width: 100%;
 	background: #FFFFFF;
-	padding-top: 115px;
+	padding-top: 15px;
 	padding-bottom: 115px;
 }
 .news_post:not(:last-child)
@@ -962,6 +962,7 @@ section
 .news_sidebar
 {
 	width: 100%;
+	margin-left: 70%;
 }
 .sidebar_title
 {
@@ -1369,9 +1370,6 @@ section
 {
 	margin-bottom: 7px;
 }
-
-
-
 
 
 
