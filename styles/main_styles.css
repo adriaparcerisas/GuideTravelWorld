@@ -832,7 +832,7 @@ section
 .intro_container
 {
 	width: 100%;
-	border-bottom: solid 2px #e4e6e8;
+	border-bottom: solid 2px #766663;
 	padding-top: 142px;
 	padding-bottom: 121px;
 }
@@ -913,6 +913,16 @@ section
 	line-height: 36px;
 	font-weight: 400;
 }
+.spec_offer a:hover
+{
+	display: block;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	color: #FFFFFF;
+	line-height: 36px;
+	font-weight: 400;
+	background: #998D82;
+}
 .destinations_container
 {
 	width: calc(100% + 30px);
@@ -939,6 +949,13 @@ section
 	font-size: 30px;
 	font-weight: 400;
 	color: #766663;
+}
+.destination_title a:hover
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	font-weight: 400;
+	color: #998D82;
 }
 .destination_subtitle
 {
@@ -1126,6 +1143,13 @@ section
 	font-weight: 400;
 	color: #766663;
 }
+.news_post_title a:hover
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 28px;
+	font-weight: 400;
+	color: #998D82;
+}
 .news_post_category
 {
 	margin-top: -5px;
@@ -1145,6 +1169,7 @@ section
 .news_post_text
 {
 	margin-top: 14px;
+	text-align: justify;
 }
 .travello
 {
@@ -1340,6 +1365,21 @@ section
 	height: 50px;
 	border-radius: 20px;
 	background: rgba(255,255,255,0.5);
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.newsletter_button:hover
+{
+	width: 161px;
+	height: 50px;
+	border-radius: 20px;
+	background: #998D82;
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
 	font-weight: 400;

@@ -112,7 +112,7 @@ p::selection
 {
 	
 }
-h1{font-size: 72px;}
+h1{font-size: 72px; word-break: break-all;}
 h2{font-size: 48px;}
 h3{font-size: 36px;}
 h4{font-size: 24px;}
@@ -777,19 +777,14 @@ section
 	width: 100%;
 	background: #FFFFFF;
 	padding-top: 115px;
-	padding-bottom: 116px;
-}
-.news_post
-{
-	padding-bottom: 39px;
+	padding-bottom: 115px;
 }
 .news_post:not(:last-child)
 {
-	margin-bottom: 71px;
+	margin-bottom: 38px;
 }
 .news_post_image
 {
-	width: 100%;
 }
 .news_post_image img
 {
@@ -797,20 +792,22 @@ section
 }
 .news_post_content
 {
-	padding-top: 39px;
+	width: 100%;
+	padding-left: 10px;
 }
 .news_post_date div:first-child
 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 48px;
+	font-size: 26px;
 	font-weight: 400;
 	color: #766663;
 	line-height: 0.75;
+	padding-top: 4px;
 }
 .news_post_date div:last-child
 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 11px;
+	font-size: 10px;
 	font-weight: 400;
 	color: #72728c;
 	text-transform: uppercase;
@@ -825,23 +822,21 @@ section
 }
 .news_post_title
 {
-	margin-top: 10px;
+	margin-top: 8px;
 }
 .news_post_title a
 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 28px;
+	font-size: 15px;
 	font-weight: 400;
 	color: #766663;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
 }
 .news_post_title a:hover
 {
-	color: rgba(24,24,24,0.5);
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	color: #998D82;
 }
 .news_post_category
 {
@@ -854,34 +849,94 @@ section
 .news_post_category ul li a
 {
 	font-family: 'Oswald', sans-serif;
-	font-size: 9px;
+	font-size: 10px;
 	color: #8f8f8f;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 }
 .news_post_text
 {
-	margin-top: 14px;
+	margin-top: 6px;
+	text-align: justify;
 }
-.news_post_link
+.travello
 {
-	margin-top: 47px;
+	width: 100%;
+	height: 659px;
+	overflow: hidden;
 }
-.news_post_link a
+.travello_content
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.travello_content_inner
+{
+	width: 100%;
+	height: 100%;
+}
+.travello_content_inner > div
+{
+	position: absolute;
+	top: 58%;
+	width: 200%;
+	height: 100%;
+	z-index: 1;
+}
+.travello_content_inner > div:first-child
+{
+	left: 0;
+	background: rgba(45,143,197,0.7);
+	transform-origin: top left;
+	transform: rotate(12deg);
+}
+.travello_content_inner > div:last-child
+{
+	right: 0;
+	background: rgba(237,35,69,0.7);
+	transform-origin: top right;
+	transform: rotate(-12deg);
+}
+.travello_container
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	padding-bottom: 47px;
+}
+.travello_container a
+{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.travello_container a div
+{
+	width: 100%;
+	height: 100%;
+}
+.travello_title
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 48px;
+	color: #FFFFFF;
+	max-width: 210px;
+	line-height: 1;
+}
+.travello_subtitle
 {
 	font-family: 'Oswald', sans-serif;
 	font-size: 16px;
+	color: #FFFFFF;
+	margin-top: 6px;
 	font-weight: 400;
-	color: rgba(24,24,24,1);
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.news_post_link a:hover
-{
-	color: rgba(24,24,24,0.5);
 }
 .pagination
 {
@@ -1246,6 +1301,21 @@ section
 	outline: none;
 	cursor: pointer;
 }
+.newsletter_button:hover
+{
+	width: 161px;
+	height: 50px;
+	border-radius: 20px;
+	background: #998D82;
+	font-family: 'Oswald', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
 .footer_contact_row
 {
 	margin-top: 80px;
@@ -1298,4 +1368,76 @@ section
 .footer_contact_list ul li:not(:last-child)
 {
 	margin-bottom: 7px;
+}
+
+
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Center website */
+.main {
+  max-width: 100%;
+  margin: auto;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+  overflow: hidden;
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  background-color: white;
+  cursor: pointer;
+}
+
+/* Add a grey background color on mouse-over */
+.btn:hover {
+  background-color: #ddd;
+}
+
+/* Add a dark background color to the active button */
+.btn.active {
+  /*background-color: #666;*/
+   color: #766663;
 }
