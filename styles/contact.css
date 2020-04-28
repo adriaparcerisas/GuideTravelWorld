@@ -777,7 +777,7 @@ section
 	width: 100%;
 	padding-top: 115px;
 	padding-bottom: 115px;
-	background: #FFFFFF;
+	background: #FBF7EC;
 }
 .contact_title
 {
@@ -1123,4 +1123,24 @@ section
 .footer_contact_list ul li:not(:last-child)
 {
 	margin-bottom: 7px;
+}
+
+input[type=text] {
+    padding:5px; 
+    border:2px solid #766663; 
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
+input[type=text]:focus {
+    border-color:#333;
+}
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#766663; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
 }

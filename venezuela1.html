@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Zambia</title>
+<title>VENEZUELA - OIL</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="All about Zambia">
+<meta name="description" content="Post about Venezuela Oil">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-<link rel="stylesheet" type="text/css" href="styles/news.css">
-<link rel="stylesheet" type="text/css" href="styles/news_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/posts.css">
+<link rel="stylesheet" type="text/css" href="styles/posts_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
 <!-- Favicons -->
 <link rel="shortcut icon" sizes="32x32" href="images/favicon/favicon-32x32.png">
 <link rel="apple-touch-icon" href="images/favicon/logo.JPG">
@@ -38,7 +39,7 @@
 									<li><a href="index.html">Home</a></li>
 									<li><a href="about.html">About us</a></li>
 									<li><a href="services.html">Services</a></li>
-									<li class="active"><a href="#">Blog</a></li>
+									<li class="active"><a href="news.html">Blog</a></li>
 									<li><a href="contact.html">Contact</a></li>
 								<ul class="d-flex flex-row align-items-start justify-content-start">
 									<li><a href="https://www.facebook.com/guidetravelworld/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
@@ -74,7 +75,7 @@
 				<li><a href="index.html">Home</a></li>
 				<li><a href="about.html">About us</a></li>
 				<li><a href="services.html">Services</a></li>
-				<li><a href="#">Blog</a></li>
+				<li><a href="news.html">Blog</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
 		</div>
@@ -99,48 +100,57 @@
 		<div class="container">
 		
 			<div id="myBtnContainer" style="padding-top:5%; text-align:center; margin-bottom:5%;">
-				<button class="btn active" onclick="window.location.href = 'news.html';" style="background-color:#766663; color:white;"> Show all</button>
+			  <button class="btn active" onclick="window.location.href = 'news.html';" style="background-color:#766663; color:white;"> Show all</button>
 			</div>
 		
-			
-			<div class="row" style="margin: 8px -16px; margin-top:5%;">
-					
-			  <div class="column Z mountain col-lg-4">
-				<div class="content">
-				  <div class="news_post_image"><img src="images/blog/zambia_1.JPG" alt=""></div>
-					<div class="news_post_content">
-						<div class="news_post_date d-flex flex-row align-items-end justify-content-start">
-							<div>27</div>
-							<div>April</div>
-						</div>
-						<div class="news_post_title"><a href="zambia1.html">ZAMBIA - THE BIG FIVE</a></div>
-						<div class="news_post_category">
-							<ul>
-								<li><a style="cursor: pointer;" onclick="filterSelection('mountain')">Mountain</a></li>
-							</ul>
-						</div>
-						<!--<div class="news_post_text">
-							<p>On our first article we will talk about one of our recurrent dreams. The Big Five: buffalos, lions, leopards, rhinoceros and elephants.</p>
-						</div>-->
+				<!-- POST -->
+			<div class="content">
+				<div class="news_post_content">
+					<div class="news_post_title">VENEZUELA - OIL</div>
+					<div class="news_post_category">
+						<div>01 May | Mountain</div>
 					</div>
-				 </div>
-			  </div>
+					<div class="news_post_text">
+						<p>Hi travelers!
+						<p>Our next country has the largest proven oil reserves in the world. Is not an asian country, it is located in South America: Venezuela. These are located on the north coast.</p>
+						<img src="images/blog/venezuela_1.JPG" alt="" height="50%" width="50%" align="right" style="padding:2%;">
+						<p>The first country’s oil boom was during the second World War, due to increased consumption. During the following years, Venezuela started to export oil around the world, becoming the United States most important provider. During the 70s, the oil suppliers countries meet to has more control on the oil companies and increase the price of the oil, to increase its incomings. But this avarice drove the country to a big crisis on the 80s, giving the country a big debt and recession. On the following decades, the oil exporting benefits has suffered many ups and downs as a roller coaster, due the differents wars happened around the globe, like Irak war on 2003. </p>
+						<p>Nowadays, Venezuela has a conflict with the United States because the oil. The two governments are arguing and blaming each other, while its citizens are poor and cannot has a house or food to eat.</p>
+						<p>Nevertheless of this, Venezuela is improving their safety, becoming an important touristic destination due its geographical variety and its nice people. If you want to visit it, take care about the political situation when you go, but do not hesitate you will enjoy it!</p>
+						<p>Andrea & Cris</p>
+					
+					</div>
+				</div>
+			 </div>
+				<!-- END POST -->
+				
+			<section id="comments" class="body" style="background-color:#FBF7EC;">
+				
+				<div id="respond">
+
+			  <h3 style="color:#766663;">Leave a Comment</h3>
+
+			  <form action="post_comment.php" method="post" id="commentform">
+
+				<label for="comment_author" class="required">Your name</label>
+				<input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+				
+				<label for="email" class="required">Your email</label>
+				<input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+				<label for="comment" class="required">Your message</label>
+				<textarea name="comment" id="comment" rows="10" tabindex="4"  required="required" style="padding:5px; border:2px solid #766663; -webkit-border-radius: 5px; border-radius: 5px;"></textarea>
+
+				<input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
+				<input name="submit" type="submit" value="Submit comment" style="color:white; background-color:#766663;" />
+				
+			  </form>
 			  
-
-				<!-- END GRID 1 -->
-
-				<!-- Pagination -->
-				<!--<div class="pagination">
-					<ul class="d-flex flex-row align-items-start justify-content-start">
-						<li class="active"><a href="#">1.</a></li>
-						<li><a href="#">2.</a></li>
-						<li><a href="#">3.</a></li>
-						<li><a href="#">4.</a></li>
-						<li><a href="#">5.</a></li>
-					</ul>
-				</div>-->
-
 			</div>
+					
+			</section>
+			
+
 		</div>
 	</div>
 
@@ -225,5 +235,11 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> | All
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/news.js"></script>
 <script src="js/filterdiv.js"></script>
+<script>
+var APP_KEY = '<?php echo(baeab7aa346e377a93e0); ?>';
+</script>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="http://js.pusher.com/1.11/pusher.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>

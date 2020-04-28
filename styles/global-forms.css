@@ -25,7 +25,6 @@ label {font-size: 1.1em; height: 25px; line-height: 25px;}
 	input[type='url'],
 	textarea {
 		background: #fff;
-		border: 1px solid #eee;
 		color: #999;
 		font-family: inherit;
 		font-size: inherit;
@@ -35,8 +34,7 @@ label {font-size: 1.1em; height: 25px; line-height: 25px;}
 	input[type='email']:hover,
 	input[type='url']:hover,
 	textarea:hover {
-		background: #FFFBEF;
-		border-color: #ff0;
+		background: #E7E7E7;
 		cursor: text;
 	}
 	input[type='text']:focus,
@@ -44,7 +42,6 @@ label {font-size: 1.1em; height: 25px; line-height: 25px;}
 	input[type='url']:focus,
 	textarea:focus {
 		background: #ffC;
-		border-color: #ff1;
 		color: #0d0d0d;
 	}
 	
@@ -65,7 +62,7 @@ label {font-size: 1.1em; height: 25px; line-height: 25px;}
 		text-shadow: 1px 1px 1px #000;
 	}
 	
-	input:required, textarea:required {outline: 1px solid #C74350;}
+	input:required, textarea:required {outline: 0px;}
 	
 	/* Textarea */
 	textarea {width: 99%; margin-bottom: 7px;}

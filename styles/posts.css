@@ -1422,3 +1422,12 @@ section
   /*background-color: #666;*/
    color: #766663;
 }
+
+input[type=submit] {
+    padding:5px 15px; 
+    background:#766663; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; 
+}

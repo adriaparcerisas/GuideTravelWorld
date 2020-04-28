@@ -249,15 +249,12 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
   display: block;
   width: 100%;
   
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding:5px; 
+  border:2px solid #766663; 
+  border-radius: 5px;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
-  -o-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -khtml-border-radius: 5px;
-  border-radius: 5px;
-  
-  line-height: 1.4em;
+  -khtml-border-radius: 5px;  
 }	
 
 #comments-list {list-style: none; margin: 0 1em;}
@@ -277,22 +274,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 #comments-list li:nth-child(2n) blockquote {background: #F5f5f5;}
 
 /* Add a Comment */
-#add-comment label {clear: left; float: left; text-align: left; width: 150px;}
-#add-comment input[type='text'],
-#add-comment input[type='email'],
-#add-comment input[type='url'] {float: left; width: 200px;}
-
-#add-comment textarea {float: left; height: 150px; width: 495px;}
 
 #add-comment p.req {clear: both; margin: 0 .5em 1em 0; text-align: right;}
 
-#add-comment input[type='submit'] {float: right; margin: 0 .5em;}
 #add-comment * {margin-bottom: .5em;}
-
-#inputs {
-	color:white; 
-	background-color:#766663;
-}
-#inputs:hover {
-	background-color:#998D82;
-}
