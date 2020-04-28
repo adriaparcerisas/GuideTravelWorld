@@ -13,6 +13,7 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link rel="stylesheet" type="text/css" href="styles/posts.css">
 <link rel="stylesheet" type="text/css" href="styles/posts_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/main.css">
 <!-- Favicons -->
 <link rel="shortcut icon" sizes="32x32" href="images/favicon/favicon-32x32.png">
 <link rel="apple-touch-icon" href="images/favicon/logo.JPG">
@@ -122,8 +123,54 @@
 				</div>
 			 </div>
 				<!-- END POST -->
+				
+			<section id="comments" class="body" style="background-color:#FBF7EC;">
+				
+				<div id="respond">
 
+			  <h3 style="color:#766663;">Leave a Comment</h3>
+
+			  <form action="post_comment.php" method="post" id="commentform">
+
+				<label for="comment_author" class="required">Your name</label>
+				<input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+				
+				<label for="email" class="required">Your email</label>
+				<input type="email" name="email" id="email" value="" tabindex="2" required="required">
+
+				<label for="comment" class="required">Your message</label>
+				<textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
+
+				<input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
+				<input name="submit" type="submit" value="Submit comment" style="color:white; background-color:#766663;" />
+				
+			  </form>
+			  
 			</div>
+					
+			</section>
+			
+			
+			<div id="disqus_thread"></div>
+			<script>
+
+			/**
+			*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+			*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+			var disqus_config = function () {
+			this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+			this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+			};
+			
+			(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
+			s.src = 'https://guidetravelworld.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+			})();
+			</script>
+			
+
 		</div>
 	</div>
 
@@ -208,5 +255,12 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> | All
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/news.js"></script>
 <script src="js/filterdiv.js"></script>
+<script>
+var APP_KEY = '<?php echo(baeab7aa346e377a93e0); ?>';
+</script>
+<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script src="http://js.pusher.com/1.11/pusher.min.js"></script>
+<script src="js/app.js"></script>
+<script id="dsq-count-scr" src="//guidetravelworld.disqus.com/count.js" async></script>
 </body>
 </html>
