@@ -989,10 +989,11 @@ section
 {
 	margin-top: 100px;
 	margin-bottom: 10%;
+	padding-left: 7%;
 }
 .why_item_2
 {
-	width: 100%;
+	width: 80%;
 	background: #766663;
 }
 .why_image_2
@@ -1052,17 +1053,17 @@ section
 {
 	width: 100%;
 	background: #FBF7EC;
-	padding-top: 80px;
-	padding-bottom: 67px;
+	padding-top: 40px;
+	padding-bottom: 37px;
 }
 .team_row
 {
-	margin-top: 100px;
+	margin-top: 50px;
 }
 .team_item
 {
 	width: 100%;
-	padding-bottom: 48px;
+	padding-bottom: 38px;
 }
 .team_image
 {

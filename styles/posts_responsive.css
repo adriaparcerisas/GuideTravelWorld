@@ -135,42 +135,17 @@
 		width: 100%;
 		margin-top: 10px;
 	}
-	.about
+	.news
 	{
-		padding-top: 38px;
+		padding-top: 27px;
 	}
-	.about_content
+	.news_sidebar
 	{
-		margin-top: 0;
-	}
-	.about_image
-	{
-		margin-top: 60px;
-	}
-	.milestone_col:not(:last-child)
-	{
-		margin-bottom: 60px;
-	}
-	.why_col:not(:last-child)
-	{
-		margin-bottom: 90px;
+		margin-top: 115px;
 	}
 	.footer_contact_col:not(:last-child)
 	{
 		margin-bottom: 60px;
-	}
-	.intro_background
-	{
-		display: none;
-	}
-	.intro_container
-	{
-		border-top: solid 2px #e4e6e8;
-		padding-top: 121px;
-	}
-	.intro_col:not(:last-child)
-	{
-		margin-bottom: 50px;
 	}
 }
 
@@ -201,61 +176,6 @@
 	
 }
 
-/************
-10. 767px
-************/
-
-@media only screen and (max-width: 767px)
-{
-	.home_search_container
-	{
-		padding-left: 0;
-		padding-right: 0;
-	}
-	.team_col:not(:last-child)
-	{
-		margin-bottom: 20px;
-	}
-	.newsletter_form > div:not(:last-child)
-	{
-		margin-right: 0px;
-	}
-	.newsletter_form > div:first-child
-	{
-		width: 100%;
-	}
-	.newsletter_form > div:first-child > div:first-child
-	{
-		width: 100%;
-		margin-bottom: 15px;
-	}
-	.newsletter_form > div:first-child > div:last-child
-	{
-		width: 100%;
-		margin-bottom: 20px;
-	}
-	.newsletter_form > div:last-child
-	{
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.newsletter_input
-	{
-		height: 40px;
-	}
-	.newsletter_button
-	{
-		font-size: 14px;
-	}
-	.newsletter_title
-	{
-		font-size: 28px;
-	}
-	.newsletter_subtitle
-	{
-		font-size: 16px;
-	}
-}
 
 /************
 11. 575px
@@ -326,45 +246,98 @@
 		height: 42px;
 		font-size: 12px;
 	}
-	.milestone_counter
+	.news_post:not(:last-child)
 	{
-		font-size: 48px;
+		margin-bottom: 51px;
 	}
-	.why_title
+	.news_post_date div:first-child
+	{
+		font-size: 36px;
+	}
+	.news_post_title a
 	{
 		font-size: 24px;
 	}
-	.team_image
+	.news_post_link
 	{
-		width: 155px;
-		height: 155px;
-	}
-	.team_content
-	{
-		padding-left: 20px;
-		padding-right: 20px;
-	}
-	.accordion
-	{
-		height: 40px;
-		font-size: 14px;
-		padding-left: 23px;
-	}
-	.tab
-	{
-		height: 40px;
-		font-size: 14px;
-		line-height: 40px;
-	}
-	.accordion_panel p
-	{
-		font-size: 13px;
-	}
-	.milestone_counter
-	{
-		font-size: 48px;
+		margin-top: 37px;
 	}
 }
+
+
+/************
+9. 767px
+************/
+
+@media only screen and (max-width: 767px)
+{
+	.home_search_container
+	{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.destinations_container
+	{
+		width: 100%;
+		left: auto;
+	}
+	.destination
+	{
+		width: 100%;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.news_post_image
+	{
+		width: 100%;
+	}
+	.news_post_content
+	{
+		width: 100%;
+		padding-left: 0px;
+		margin-top: 27px;
+	}
+	.newsletter_form > div:not(:last-child)
+	{
+		margin-right: 0px;
+	}
+	.newsletter_form > div:first-child
+	{
+		width: 100%;
+	}
+	.newsletter_form > div:first-child > div:first-child
+	{
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.newsletter_form > div:first-child > div:last-child
+	{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.newsletter_form > div:last-child
+	{
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.newsletter_input
+	{
+		height: 40px;
+	}
+	.newsletter_button
+	{
+		font-size: 14px;
+	}
+	.newsletter_title
+	{
+		font-size: 28px;
+	}
+	.newsletter_subtitle
+	{
+		font-size: 16px;
+	}
+}
+
 
 /************
 11. 539px

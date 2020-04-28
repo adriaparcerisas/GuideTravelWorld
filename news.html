@@ -98,8 +98,8 @@
 	<div class="news">
 		<div class="container">
 		
-			<div class="row">
-				<div class="col-lg-7" id="myBtnContainer">
+			<div class="row" style="margin: 8px -16px; margin-top:5%;">
+				<div class="col-lg-7" id="myBtnContainer" style="padding-top:5%;">
 				  <button class="btn active" onclick="filterSelection('all')" style="background-color:#766663; color:white;"> Show all</button>
 				  <br>
 				  <button class="btn" onclick="filterSelection('A')"> A</button>
@@ -140,10 +140,10 @@
 							<div class="sidebar_title">Categories</div>
 							<div class="sidebar_list">
 								<ul>
-									<li><a style="cursor: pointer;" onclick="filterSelection('beach')"><div class="d-flex flex-row align-items-start justify-content-start">Beach<span class="ml-auto">(2)</span></div></a></li>
-									<li><a style="cursor: pointer;" onclick="filterSelection('city')"><div class="d-flex flex-row align-items-start justify-content-start">City<span class="ml-auto">(5)</span></div></a></li>
-									<li><a style="cursor: pointer;" onclick="filterSelection('desert')"><div class="d-flex flex-row align-items-start justify-content-start">Desert<span class="ml-auto">(2)</span></div></a></li>
-									<li><a style="cursor: pointer;" onclick="filterSelection('mountain')"><div class="d-flex flex-row align-items-start justify-content-start">Mountain<span class="ml-auto">(3)</span></div></a></li>
+									<li><a style="cursor: pointer;" onclick="filterSelection('beach')"><div class="d-flex flex-row align-items-start justify-content-start">Beach<span class="ml-auto">(0)</span></div></a></li>
+									<li><a style="cursor: pointer;" onclick="filterSelection('city')"><div class="d-flex flex-row align-items-start justify-content-start">City<span class="ml-auto">(1)</span></div></a></li>
+									<li><a style="cursor: pointer;" onclick="filterSelection('desert')"><div class="d-flex flex-row align-items-start justify-content-start">Desert<span class="ml-auto">(0)</span></div></a></li>
+									<li><a style="cursor: pointer;" onclick="filterSelection('mountain')"><div class="d-flex flex-row align-items-start justify-content-start">Mountain<span class="ml-auto">(2)</span></div></a></li>
 									<li><a style="cursor: pointer;" onclick="filterSelection('snow')"><div class="d-flex flex-row align-items-start justify-content-start">Snow<span class="ml-auto">(0)</span></div></a></li>
 								</ul>
 							</div>
@@ -171,88 +171,85 @@
 
 			</div>
 		
-			<div class="news" id="news">
-				<div class="container">
-					<div class="row">
-							
-						<!-- Portfolio Gallery Grid -->
-					  <div class="column V mountain col-lg-3">
-						<div class="content">
-						  <div class="news_post_image"><img src="images/blog/venezuela_1.JPG" alt=""></div>
-							<div class="news_post_content">
-								<div class="news_post_date d-flex flex-row align-items-end justify-content-start">
-									<div>01</div>
-									<div>May</div>
-								</div>
-								<div class="news_post_title"><a href="venezuela.html">VENEZUELA - OIL </a></div>
-								<div class="news_post_category">
-									<ul>
-										<li><a style="cursor: pointer;" onclick="filterSelection('mountain')">Mountain</a></li>
-									</ul>
-								</div>
-								<div class="news_post_text">
-									<p>Our next country has the largest proven oil reserves in the world. Is not an asian country, it is located in South America: Venezuela.</p>
-								</div>
-							</div>
+			
+			<div class="row" style="margin: 8px -16px; margin-top:5%;">
+					
+				<!-- Portfolio Gallery Grid -->
+			  <div class="column V mountain col-lg-4">
+				<div class="content">
+				  <div class="news_post_image"><img src="images/blog/venezuela_1.JPG" alt=""></div>
+					<div class="news_post_content">
+						<div class="news_post_date d-flex flex-row align-items-end justify-content-start">
+							<div>01</div>
+							<div>May</div>
 						</div>
-					  </div>
-					  <div class="column V city col-lg-3">
-						<div class="content">
-						  <div class="news_post_image"><img src="images/blog/vietnam_1.JPG" alt=""></div>
-							<div class="news_post_content">
-								<div class="news_post_date d-flex flex-row align-items-end justify-content-start">
-									<div>29</div>
-									<div>April</div>
-								</div>
-								<div class="news_post_title"><a href="vietnam.html">VIETNAM WAR</a></div>
-								<div class="news_post_category">
-									<ul>
-										<li><a style="cursor: pointer;" onclick="filterSelection('city')">City</a></li>
-									</ul>
-								</div>
-								<div class="news_post_text">
-									<p>On our second stop, we will change of continent. We will fly to the southeast Asian, and as many of this part of the globe, touched by a war, Vietnam War.</p>
-								</div>
-							</div>
-						</div>
-					  </div>
-					  <div class="column Z mountain col-lg-3">
-						<div class="content">
-						  <div class="news_post_image"><img src="images/blog/zambia_1.JPG" alt=""></div>
-							<div class="news_post_content">
-								<div class="news_post_date d-flex flex-row align-items-end justify-content-start">
-									<div>27</div>
-									<div>April</div>
-								</div>
-								<div class="news_post_title"><a href="zambia.html">ZAMBIA - THE BIG FIVE</a></div>
-								<div class="news_post_category">
-									<ul>
-										<li><a style="cursor: pointer;" onclick="filterSelection('mountain')">Mountain</a></li>
-									</ul>
-								</div>
-								<div class="news_post_text">
-									<p>On our first article we will talk about one of our recurrent dreams. The Big Five: buffalos, lions, leopards, rhinoceros and elephants.</p>
-								</div>
-							</div>
-						 </div>
-					  </div>
-					  
-
-						<!-- END GRID 1 -->
-
-						<!-- Pagination -->
-						<!--<div class="pagination">
-							<ul class="d-flex flex-row align-items-start justify-content-start">
-								<li class="active"><a href="#">1.</a></li>
-								<li><a href="#">2.</a></li>
-								<li><a href="#">3.</a></li>
-								<li><a href="#">4.</a></li>
-								<li><a href="#">5.</a></li>
+						<div class="news_post_title"><a href="venezuela.html">VENEZUELA - OIL </a></div>
+						<div class="news_post_category">
+							<ul>
+								<li><a style="cursor: pointer;" onclick="filterSelection('mountain')">Mountain</a></li>
 							</ul>
+						</div>
+						<!--<div class="news_post_text">
+							<p>Our next country has the largest proven oil reserves in the world. Is not an asian country, it is located in South America: Venezuela.</p>
 						</div>-->
-						
 					</div>
 				</div>
+			  </div>
+			  <div class="column V city col-lg-4">
+				<div class="content">
+				  <div class="news_post_image"><img src="images/blog/vietnam_1.JPG" alt=""></div>
+					<div class="news_post_content">
+						<div class="news_post_date d-flex flex-row align-items-end justify-content-start">
+							<div>29</div>
+							<div>April</div>
+						</div>
+						<div class="news_post_title"><a href="vietnam.html">VIETNAM WAR</a></div>
+						<div class="news_post_category">
+							<ul>
+								<li><a style="cursor: pointer;" onclick="filterSelection('city')">City</a></li>
+							</ul>
+						</div>
+						<!--<div class="news_post_text">
+							<p>On our second stop, we will change of continent. We will fly to the southeast Asian, and as many of this part of the globe, touched by a war, Vietnam War.</p>
+						</div>-->
+					</div>
+				</div>
+			  </div>
+			  <div class="column Z mountain col-lg-4">
+				<div class="content">
+				  <div class="news_post_image"><img src="images/blog/zambia_1.JPG" alt=""></div>
+					<div class="news_post_content">
+						<div class="news_post_date d-flex flex-row align-items-end justify-content-start">
+							<div>27</div>
+							<div>April</div>
+						</div>
+						<div class="news_post_title"><a href="zambia.html">ZAMBIA - THE BIG FIVE</a></div>
+						<div class="news_post_category">
+							<ul>
+								<li><a style="cursor: pointer;" onclick="filterSelection('mountain')">Mountain</a></li>
+							</ul>
+						</div>
+						<!--<div class="news_post_text">
+							<p>On our first article we will talk about one of our recurrent dreams. The Big Five: buffalos, lions, leopards, rhinoceros and elephants.</p>
+						</div>-->
+					</div>
+				 </div>
+			  </div>
+			  
+
+				<!-- END GRID 1 -->
+
+				<!-- Pagination -->
+				<!--<div class="pagination">
+					<ul class="d-flex flex-row align-items-start justify-content-start">
+						<li class="active"><a href="#">1.</a></li>
+						<li><a href="#">2.</a></li>
+						<li><a href="#">3.</a></li>
+						<li><a href="#">4.</a></li>
+						<li><a href="#">5.</a></li>
+					</ul>
+				</div>-->
+
 			</div>
 		</div>
 	</div>
@@ -324,7 +321,7 @@
 			</div>
 		</div>
 		<div class="col text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> | All rights reserved | by <a href="https://guidetravelworld.com" target="_blank">Guide Travel World</a>
 <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </div>
 
 	</footer>
