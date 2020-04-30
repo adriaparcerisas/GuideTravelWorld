@@ -1,13 +1,10 @@
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>VIETNAM - VIETNAM WAR</title>
+<title>Blog</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="description" content="Post about Vietnam">
+<meta name="description" content="Here you can find all guides">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -109,84 +106,69 @@
 				<!-- POST -->
 			<div class="content">
 				<div class="news_post_content">
-					<div class="news_post_title">VIETNAM - VIETNAM WAR</div>
+					<div class="news_post_title">ZAMBIA - THE BIG FIVE</div>
 					<div class="news_post_category">
-						<div>29 April | City</div>
+						<div>27 April | Mountain</div>
 					</div>
 					<div class="news_post_text">
 						<p>Hi travelers!
-						<p>On our second stop, we will change of continent. We will fly to the southeast Asian, and as many of this part of the globe, touched by a war, Vietnam War.</p>
-						<img src="images/blog/vietnam_1.JPG" alt="" height="50%" width="50%" align="right" style="padding:2%;">
-						<p>Vietnam is a peaceful and welcome country, with very nice and friendly people. But 66 years ago, the country was divided by two due a conflict, the north against the south, with the USA as ally of the south. The war started in 1954 due the French colonial rule and the next year, in 1955 Vietnam was split along the 17th parallel latitude. During the following years, the USA increase their number of troops arguing the Domino Theory, which held that if one Asian country fell to communism, many others would follow. During the 60s, other USA ally countries send troops to South Vietnam to help, as South Korea and Australia. The war develop as an international conflict, it divided the public opinion of the USA by two, while the south was losing battles and troops. Nineteen years later, in 1973, the war ends with the final peace agreement between the United States and the North Vietnam, and the country was reunified as the Socialist Republic of Vietnam.  </p>
-						<p>Nevertheless, the United States lose the war, the north troops develop unique and ingenious techniques to kill the USA troops. One of this examples, the made a hold on the floor with wood nails and covered by leaves. Around it, the hide in small holes where only Vietnamese people fit on it. When an American soldier fells into the hole and is hurt his mates went to rescue him, breaking their protection. At that time, the north Vietnamese soldiers came out of their holes and kill all the unprotected americans soldiers. </p>
-						<p>This war left 3 millions people death, 58.000 of them americans, and still present if you visit the country, with many military points around the country and many spots to remember it. Even though, Vietnamese people feel proud to be the only one country to win the United States in a war.  </p>
+						<p>On our first article we will talk about one of our recurrent dreams. The Big Five: buffalos, lions, leopards, rhinoceros and elephants.</p>
+						<img src="images/blog/zambia_1.JPG" alt="" height="50%" width="50%" align="right" style="padding:2%;">
+						<p>Zambia is one of these africans countries where you can see the five magnific animals during your visits to the three most important national parks of the country: South Luangwa National Park, Lower Zambezi National Park and Mosi-oa-Tunya National Park. This animals are in danger of extinction due the human actions of the last century. On our eagerness to be the clever and powerful animal we develop the selfishness to show other humans how superiors we are, hunting this animals as a hobby and breaking the balance of the ecosystem. </p>
+						<p>Elephants have a very good memory, they can remember his mother after years and years without see her, and they are so important because they disperse the seed of plants, helps insects providing food, helps another animals to find water making holes on the floor and helps habitats to grow, eating plants from trees allowing sun rays arrive to the grass. Buffalos has an important role on predation, helps many birds on their reproduction cycle and regulates the grass growing eating it. On third place, rhinoceros are a good soil fertilizers with their abundant fecal and, as buffalos, are a grass eaters, helping to the grass growing regulation. Leopards are important hunters on the ecosystem, they eat everything as fish, reptiles, birds or mammals, regulating the growing population of them. And the last of the Big Five is our favourite, the lion, the jungle king; as leopards, are important hunters helping to the population growing control.</p>
+						<p>Of course, this five awesome animals are only a small part of all the African ecosystem, but if you can make a safari don’t miss the opportunity to discover this amazing wildlife. And remember, humans are only part of that world, we don’t have the power to control it, it does by itself! </p>
 						<p>Andrea & Cris</p>
 					
-					</div>
-					
-					<div id="myBtnContainer" style="padding-top:5%; text-align:center; margin-bottom:5%;">
-						<button class="plan_your_trip" onclick="window.location.href = 'services.html#main_services';">Plan your trip with us!</button>
 					</div>
 				</div>
 			 </div>
 				<!-- END POST -->
 				
-			<section id="comments" class="body" style="background-color:#FBF7EC; width:60%;">
-			
-				<header>
-					<h2>Comments</h2>
-				</header>
-
-				<ol id="posts-list" class="hfeed<?php echo($has_comments?' has-comments':''); ?>">
-				  <li class="no-comments" style="background-color:#FBF7EC;">Be the first to add a comment.</li>
-				  <?php
-					foreach ($comments as &$comment) {
-					  ?>
-					  <li><article id="comment_<?php echo($comment['id']); ?>" class="hentry">	
-								<footer class="post-info" style="background-color:#FBF7EC;">
-									<abbr class="published" title="<?php echo($comment['date']); ?>">
-										<?php echo( date('d F Y', strtotime($comment['date']) ) ); ?>
-									</abbr>
-
-									<address class="vcard author">
-										By <a class="url fn" href="#"><?php echo($comment['comment_author']); ?></a>
-									</address>
-								</footer>
-
-								<div class="entry-content" style="background-color:#FBF7EC;">
-									<p><?php echo($comment['comment']); ?></p>
-								</div>
-							</article></li>
-					  <?php
-					}
-				  ?>
-				</ol>
-			
-			
+			<section id="comments" class="body" style="background-color:#FBF7EC;">
 				
 				<div id="respond">
 
-					<h3 style="color:#766663;">Leave a Comment</h3>
+			  <h3 style="color:#766663;">Leave a Comment</h3>
 
-					<form action="post_comment.php" method="post" id="commentform">
+			  <form action="post_comment.php" method="post" id="commentform">
 
-						<label for="comment_author" class="required">Your name</label>
-						<input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
-					
-						<label for="email" class="required">Your email</label>
-						<input type="email" name="email" id="email" value="" tabindex="2" required="required">
+				<label for="comment_author" class="required">Your name</label>
+				<input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+				
+				<label for="email" class="required">Your email</label>
+				<input type="email" name="email" id="email" value="" tabindex="2" required="required">
 
-						<label for="comment" class="required">Your message</label>
-						<textarea name="comment" id="comment" rows="10" tabindex="4"  required="required" style="padding:5px; border:2px solid #766663; -webkit-border-radius: 5px; border-radius: 5px;"></textarea>
+				<label for="comment" class="required">Your message</label>
+				<textarea name="comment" id="comment" rows="10" tabindex="4"  required="required"></textarea>
 
-						<input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
-						<input name="submit" type="submit" value="Submit comment" />
-					
-					</form>
+				<input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
+				<input name="submit" type="submit" value="Submit comment" style="color:white; background-color:#766663;" />
+				
+			  </form>
 			  
-				</div>
+			</div>
 					
 			</section>
+			
+			
+			<div id="disqus_thread"></div>
+			<script>
+
+			/**
+			*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+			*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+			var disqus_config = function () {
+			this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+			this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+			};
+			
+			(function() { // DON'T EDIT BELOW THIS LINE
+			var d = document, s = d.createElement('script');
+			s.src = 'https://guidetravelworld.disqus.com/embed.js';
+			s.setAttribute('data-timestamp', +new Date());
+			(d.head || d.body).appendChild(s);
+			})();
+			</script>
 			
 
 		</div>
@@ -205,7 +187,6 @@
 						</div>
 						<div class="newsletter_form_container text-center">
 							<div><button class="newsletter_button" onclick="window.location.href ='https://www.instagram.com/guidetravelworld/'">@guidetravelworld</button></div>
-							<div><button class="newsletter_button" onclick="window.location.href ='contact.html'">Collab with us</button></div>
 						</div>
 					</div>
 				</div>
@@ -260,8 +241,8 @@
 			</div>
 		</div>
 		<div class="col text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> | <a href="legal.html" target="_blank">Legal Notice</a> | <a href="privacy.html" target="_blank">Privacy Policy</a> | All rights reserved by <a href="https://guidetravelworld.com" target="_blank">Guide Travel World</a>
-		</div>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> | All rights reserved | by <a href="https://guidetravelworld.com" target="_blank">Guide Travel World</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </div>
 
 	</footer>
 </div>
@@ -280,5 +261,6 @@ var APP_KEY = '<?php echo(baeab7aa346e377a93e0); ?>';
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="http://js.pusher.com/1.11/pusher.min.js"></script>
 <script src="js/app.js"></script>
+<script id="dsq-count-scr" src="//guidetravelworld.disqus.com/count.js" async></script>
 </body>
 </html>

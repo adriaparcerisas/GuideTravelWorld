@@ -142,6 +142,7 @@
 	.news_sidebar
 	{
 		margin-top: 115px;
+		margin-left: 0%;
 	}
 	.footer_contact_col:not(:last-child)
 	{
@@ -252,11 +253,11 @@
 	}
 	.news_post_date div:first-child
 	{
-		font-size: 36px;
+		font-size: 24px;
 	}
 	.news_post_title a
 	{
-		font-size: 24px;
+		font-size: 18px;
 	}
 	.news_post_link
 	{
@@ -289,7 +290,8 @@
 	}
 	.news_post_image
 	{
-		width: 100%;
+		width: 150%;
+		height: 150%;
 	}
 	.news_post_content
 	{

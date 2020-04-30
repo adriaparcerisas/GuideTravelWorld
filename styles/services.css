@@ -1000,6 +1000,11 @@ section
 {
 	width: 100%;
 }
+.why_image_2:hover
+{
+	width: 110%;
+	cursor: pointer;
+}
 .why_image_2 img
 {
 	max-width: 100%;
@@ -1227,6 +1232,7 @@ section
 	border: none;
 	outline: none;
 	cursor: pointer;
+	margin-bottom: 1%;
 }
 .newsletter_button:hover
 {

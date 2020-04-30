@@ -58,6 +58,8 @@ ul
 {
 	list-style: none;
 	margin-bottom: 0px;
+	margin-left: 5%;
+	max-width: 80%;
 }
 p
 {
@@ -69,6 +71,7 @@ p
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	margin-top: 1%;
 }
 p a
 {
@@ -117,9 +120,9 @@ p::selection
 }
 h1{font-size: 72px;}
 h2{font-size: 48px;}
-h3{font-size: 36px;}
-h4{font-size: 24px;}
-h5{font-size: 18px;}
+h3{font-size: 36px; margin-top: 4%;}
+h4{font-size: 24px; margin-top: 2%;}
+h5{font-size: 18px; margin-top: 1.5%;}
 h1, h2, h3, h4, h5, h6
 {
 	font-family: 'Oswald', sans-serif;
@@ -815,8 +818,9 @@ section
 .intro
 {
 	width: 100%;
-	background: #FBF7EC;
+	background: #FFEDDF;
 	z-index: 1;
+	text-align: justify;
 }
 .intro_background
 {
@@ -832,7 +836,6 @@ section
 .intro_container
 {
 	width: 100%;
-	border-bottom: solid 2px #766663;
 	padding-top: 142px;
 	padding-bottom: 121px;
 }
@@ -1442,18 +1445,4 @@ section
 .footer_contact_list ul li:not(:last-child)
 {
 	margin-bottom: 7px;
-}
-
-input[type=submit] {
-    padding:5px 15px; 
-    background:#766663; 
-    border:0 none;
-    cursor:pointer;
-    -webkit-border-radius: 5px;
-    border-radius: 5px; 
-	color: white;
-}
-
-input[type=submit]:hover {
-    background: rgba(24,24,24,0.5);
 }

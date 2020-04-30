@@ -1154,6 +1154,7 @@ section
 	border: none;
 	outline: none;
 	cursor: pointer;
+	margin-bottom: 1%;
 }
 .newsletter_button:hover
 {
@@ -1256,7 +1257,7 @@ section
 	height: 59px;
 	width: 100%;
 	border-radius: 10px;
-	background: #f2f5f6;
+	background: #E7E7E7;
 	padding-left: 33px;
 	cursor: pointer;
 	font-family: 'Oswald', sans-serif;

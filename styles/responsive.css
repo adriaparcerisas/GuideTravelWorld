@@ -152,7 +152,7 @@
 	{
 		position: relative;
 		top: auto;
-		width: 300%;
+		width: 70%;
 		left: auto;
 	}
 	.home_search_content
@@ -239,6 +239,11 @@
 	{
 		width: 100%;
 		left: auto;
+	}
+	.destination_image
+	{
+		height: 80%;
+		width: 80%;
 	}
 	.destination
 	{

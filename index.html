@@ -166,9 +166,9 @@
 						<div class="home_search_content">
 							<select onchange="location = this.value;" style="text-align-last: center;" type="text" class="home_search_button" placeholder="Country" id="country_name" name="country_name">
 							   <option value="#">--Country--</option>
-							   <option value="venezuela.html">Venezuela</option>
-							   <option value="vietnam.html">Vietnam</option>
-							   <option value="zambia.html">Zambia</option>
+							   <option value="venezuela1.html">Venezuela</option>
+							   <option value="vietnam1.html">Vietnam</option>
+							   <option value="zambia1.html">Zambia</option>
 							</select>
 							<!--<form action="location.href=this.value;" class="home_search_form" id="home_search_form">
 								<div class="d-flex flex-lg-row flex-column align-items-start justify-content-lg-between justify-content-start">
@@ -498,6 +498,38 @@
 			</div>
 		</div>
 	</div>
+	<form method="post" action="//submit.form" onSubmit="return validateForm();">
+	<!--<form method="post" action="newsletter.php" onSubmit="return validateForm();">-->
+		<div style="max-width: 400px;">
+		</div>
+		<div class="col text-center" style="background:#FBF7EC;">
+			<div style="padding: 5%; background: #FFD7B8; border-radius: 12px; max-width:60%; left:20%">
+				<div class="section_title"><h3>Wanna be connected? <br>Stay keep up by joining our list!</h3></div>
+				<input type="text" id="data_4" name="data_4" placeholder="submit your email address" style="" class="form-control"/>
+				<div style="padding-bottom: 18px; padding-top: 1%;"><input name="skip_Submit" value="SUBSCRIBE" type="submit"/></div>
+			</div>
+			<br><br>
+		</div>
+	</form>
+
+		<script type="text/javascript">
+		function validateForm() {
+		if (isEmpty(document.getElementById('data_4').value.trim())) {
+		alert('EMAIL is required!');
+		return false;
+		}
+		if (!validateEmail(document.getElementById('data_4').value.trim())) {
+		alert('EMAIL must be a valid email address!');
+		return false;
+		}
+		return true;
+		}
+		function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+		function validateEmail(email) {
+		var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+		return isEmpty(email) || re.test(email);
+		}
+		</script>
 
 	<!-- Footer -->
 
@@ -512,6 +544,7 @@
 						</div>
 						<div class="newsletter_form_container">
 							<div><button class="newsletter_button" onclick="window.location.href ='https://www.instagram.com/guidetravelworld/'">@guidetravelworld</button></div>
+							<div><button class="newsletter_button" onclick="window.location.href ='contact.html'">Collab with us</button></div>
 						</div>
 					</div>
 				</div>
@@ -566,8 +599,8 @@
 			</div>
 		</div>
 		<div class="col text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> | All rights reserved | by <a href="https://guidetravelworld.com" target="_blank">Guide Travel World</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </div>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> | <a href="legal.html" target="_blank">Legal Notice</a> | <a href="privacy.html" target="_blank">Privacy Policy</a> | All rights reserved by <a href="https://guidetravelworld.com" target="_blank">Guide Travel World</a>
+		</div>
 	</footer>
 </div>
 
@@ -580,5 +613,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> | All
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
 <script src="js/custom.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/cookie-bar/cookiebar-latest.min.js?forceLang=en&theme=momh&always=1&scrolling=1"></script>
+
 </body>
 </html>

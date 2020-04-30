@@ -1285,6 +1285,7 @@ section
 	border: none;
 	outline: none;
 	cursor: pointer;
+	margin-bottom: 1%;
 }
 .newsletter_button:hover
 {
@@ -1430,4 +1431,23 @@ input[type=submit] {
     cursor:pointer;
     -webkit-border-radius: 5px;
     border-radius: 5px; 
+}
+
+/* Style the buttons */
+.plan_your_trip {
+  padding: 12px 16px;
+  background-color: #B0FFC7;
+  color: black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* Add a green background color on mouse-over */
+.plan_your_trip:hover {
+  background-color: #7CFFA2;
 }

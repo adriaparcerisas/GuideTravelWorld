@@ -51,15 +51,19 @@ label {font-size: 1.1em; height: 25px; line-height: 25px;}
 	}
 	
 	input[type='submit'] {
-		background: #C74350;
-		border: 0;
-		border-radius: 5px;
+		background: #766663;
 		color: #fff;
 		cursor: pointer;
-		font-family: inherit;
-		font-size: inherit;
-		padding: .3em 2em;
-		text-shadow: 1px 1px 1px #000;
+		padding: 12px 16px;
+		font-family: 'Oswald', sans-serif;
+		font-size: 16px;
+		text-transform: uppercase;
+		border-radius: 20px;
+		border: none;
+		outline: none;
+	}
+	input[type='submit']:hover {
+		background: #998D82;
 	}
 	
 	input:required, textarea:required {outline: 0px;}

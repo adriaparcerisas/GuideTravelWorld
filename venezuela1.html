@@ -1,3 +1,6 @@
+
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -120,33 +123,68 @@
 						<p>Andrea & Cris</p>
 					
 					</div>
+					
+					<div id="myBtnContainer" style="padding-top:5%; text-align:center; margin-bottom:5%;">
+						<button class="plan_your_trip" onclick="window.location.href = 'services.html#main_services';">Plan your trip with us!</button>
+					</div>
 				</div>
 			 </div>
 				<!-- END POST -->
 				
-			<section id="comments" class="body" style="background-color:#FBF7EC;">
+			<section id="comments" class="body" style="background-color:#FBF7EC; width:60%;">
+			
+				<header>
+					<h2>Comments</h2>
+				</header>
+
+				<ol id="posts-list" class="hfeed<?php echo($has_comments?' has-comments':''); ?>">
+				  <li class="no-comments" style="background-color:#FBF7EC;">Be the first to add a comment.</li>
+				  <?php
+					foreach ($comments as &$comment) {
+					  ?>
+					  <li><article id="comment_<?php echo($comment['id']); ?>" class="hentry">	
+								<footer class="post-info" style="background-color:#FBF7EC;">
+									<abbr class="published" title="<?php echo($comment['date']); ?>">
+										<?php echo( date('d F Y', strtotime($comment['date']) ) ); ?>
+									</abbr>
+
+									<address class="vcard author">
+										By <a class="url fn" href="#"><?php echo($comment['comment_author']); ?></a>
+									</address>
+								</footer>
+
+								<div class="entry-content" style="background-color:#FBF7EC;">
+									<p><?php echo($comment['comment']); ?></p>
+								</div>
+							</article></li>
+					  <?php
+					}
+				  ?>
+				</ol>
+			
+			
 				
 				<div id="respond">
 
-			  <h3 style="color:#766663;">Leave a Comment</h3>
+					<h3 style="color:#766663;">Leave a Comment</h3>
 
-			  <form action="post_comment.php" method="post" id="commentform">
+					<form action="post_comment.php" method="post" id="commentform">
 
-				<label for="comment_author" class="required">Your name</label>
-				<input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
-				
-				<label for="email" class="required">Your email</label>
-				<input type="email" name="email" id="email" value="" tabindex="2" required="required">
+						<label for="comment_author" class="required">Your name</label>
+						<input type="text" name="comment_author" id="comment_author" value="" tabindex="1" required="required">
+					
+						<label for="email" class="required">Your email</label>
+						<input type="email" name="email" id="email" value="" tabindex="2" required="required">
 
-				<label for="comment" class="required">Your message</label>
-				<textarea name="comment" id="comment" rows="10" tabindex="4"  required="required" style="padding:5px; border:2px solid #766663; -webkit-border-radius: 5px; border-radius: 5px;"></textarea>
+						<label for="comment" class="required">Your message</label>
+						<textarea name="comment" id="comment" rows="10" tabindex="4"  required="required" style="padding:5px; border:2px solid #766663; -webkit-border-radius: 5px; border-radius: 5px;"></textarea>
 
-				<input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
-				<input name="submit" type="submit" value="Submit comment" style="color:white; background-color:#766663;" />
-				
-			  </form>
+						<input type="hidden" name="comment_post_ID" value="<?php echo($comment_post_ID); ?>" id="comment_post_ID" />
+						<input name="submit" type="submit" value="Submit comment" />
+					
+					</form>
 			  
-			</div>
+				</div>
 					
 			</section>
 			
@@ -167,6 +205,7 @@
 						</div>
 						<div class="newsletter_form_container text-center">
 							<div><button class="newsletter_button" onclick="window.location.href ='https://www.instagram.com/guidetravelworld/'">@guidetravelworld</button></div>
+							<div><button class="newsletter_button" onclick="window.location.href ='contact.html'">Collab with us</button></div>
 						</div>
 					</div>
 				</div>
@@ -221,8 +260,8 @@
 			</div>
 		</div>
 		<div class="col text-center"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> | All rights reserved | by <a href="https://guidetravelworld.com" target="_blank">Guide Travel World</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> </div>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> | <a href="legal.html" target="_blank">Legal Notice</a> | <a href="privacy.html" target="_blank">Privacy Policy</a> | All rights reserved by <a href="https://guidetravelworld.com" target="_blank">Guide Travel World</a>
+		</div>
 
 	</footer>
 </div>
