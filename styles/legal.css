@@ -72,6 +72,7 @@ p
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	margin-top: 1%;
+	margin-left: 2%;
 }
 p a
 {
@@ -835,9 +836,10 @@ section
 }
 .intro_container
 {
-	width: 100%;
+	width: 80%;
 	padding-top: 142px;
 	padding-bottom: 121px;
+	margin-left: 5%;
 }
 .intro_icon
 {

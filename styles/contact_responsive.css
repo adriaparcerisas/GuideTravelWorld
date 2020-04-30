@@ -142,6 +142,7 @@
 	.contact_form_container
 	{
 		margin-top: 90px;
+		width: 80%;
 	}
 	.footer_contact_col:not(:last-child)
 	{

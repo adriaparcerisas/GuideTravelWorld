@@ -883,6 +883,17 @@ section
 	color: #766663;
 	margin-top: 26px;
 }
+.section_title_2
+{
+	color: white;
+	margin-top: 20px;
+	font-size: 24px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 400;
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
+	text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
 .destinations_row
 {
 	margin-top: 99px;
@@ -1446,7 +1457,7 @@ section
 
 input[type=submit] {
     padding:5px 15px; 
-    background:#766663; 
+    background: rgba(24,24,24,0.5); 
     border:0 none;
     cursor:pointer;
     -webkit-border-radius: 5px;
@@ -1455,5 +1466,5 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background: rgba(24,24,24,0.5);
+    background: #98A38B;
 }

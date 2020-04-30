@@ -147,12 +147,13 @@
 	.home_search
 	{
 		height: auto;
+		left: auto;
 	}
 	.home_search_container
 	{
 		position: relative;
 		top: auto;
-		width: 70%;
+		width: 150%;
 		left: auto;
 	}
 	.home_search_content
@@ -167,7 +168,7 @@
 	}
 	.home_search_button
 	{
-		width: 300%;
+		width: 75%;
 		margin-top: 10px;
 	}
 	.intro_background
@@ -319,6 +320,10 @@
 	.section_title h2
 	{
 		font-size: 36px;
+	}
+	.section_title h2
+	{
+		font-size: 22px;
 	}
 	.menu_content ul li a
 	{

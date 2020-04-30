@@ -1056,6 +1056,7 @@ section
 	border: none;
 	outline: none;
 	cursor: pointer;
+	margin-bottom: 1%;
 }
 .newsletter_button:hover
 {
