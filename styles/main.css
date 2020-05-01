@@ -215,11 +215,11 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 /* Comments */
 
 #comments {
-  background: #fff;
+	background: #FBF7EC;
 	margin-bottom: 2em;
 	overflow: hidden;
 	padding: 20px 20px;
-	width: 760px;
+	width: 60%;
 
 	border-radius: 10px;
 	-moz-border-radius: 10px;
@@ -235,7 +235,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 }
 
 #comments ol li:nth-child(2n+1) {
-  background-color: #F5F4EF;
+  background-color: #FBF7EC;
 }
 
 #respond {
