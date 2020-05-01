@@ -147,6 +147,17 @@
 	{
 		margin-bottom: 60px;
 	}
+	.replays {
+		background: #FBF7EC;
+		margin-bottom: 2em;
+		overflow: hidden;
+		padding: 20px 20px;
+		max-width: 100%;
+
+		border-radius: 10px;
+		-moz-border-radius: 10px;
+		-webkit-border-radius: 10px;
+	}
 }
 
 /************
@@ -335,17 +346,6 @@
 	.newsletter_subtitle
 	{
 		font-size: 16px;
-	}
-	.replays {
-	background: #FBF7EC;
-	margin-bottom: 2em;
-	overflow: hidden;
-	padding: 20px 20px;
-	width: 120%;
-
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
 	}
 }
 

@@ -161,10 +161,6 @@
 		padding-left: 0;
 		padding-right: 0;
 	}
-	.subscribe {
-		max-width:100%;
-		left: 0%;
-	}
 	.search_input
 	{
 		width: 300%;
@@ -304,6 +300,10 @@
 	.newsletter_subtitle
 	{
 		font-size: 16px;
+	}
+	.subscribe {
+		max-width:100%;
+		left: -30%;
 	}
 }
 
