@@ -162,8 +162,8 @@
 		padding-right: 0;
 	}
 	.subscribe {
-		max-width:80%;
-		left: 20%;
+		max-width:100%;
+		/*left: 10%;*/
 	}
 	.search_input
 	{

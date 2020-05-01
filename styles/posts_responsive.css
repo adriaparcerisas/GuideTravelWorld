@@ -336,9 +336,17 @@
 	{
 		font-size: 16px;
 	}
-	#comments {
-		width: 120%;
-	}
+	.replays {
+	background: #FBF7EC;
+	margin-bottom: 2em;
+	overflow: hidden;
+	padding: 20px 20px;
+	width: 80%;
+
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
 }
 
 
