@@ -1468,3 +1468,6 @@ input[type=submit] {
 input[type=submit]:hover {
     background: #98A38B;
 }
+.subscribe {
+	max-width:40%;
+}

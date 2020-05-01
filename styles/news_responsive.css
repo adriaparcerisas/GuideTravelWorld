@@ -341,7 +341,6 @@
 	.column {
 	  float: left;
 	  width: 50%;
-	  display: none; /* Hide columns by default */
 	}
 }
 
