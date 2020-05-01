@@ -196,6 +196,10 @@
 	{
 		margin-bottom: 60px;
 	}
+	.subscribe {
+		max-width:100%;
+		left: 5%;
+	}
 }
 
 /************
@@ -300,10 +304,6 @@
 	.newsletter_subtitle
 	{
 		font-size: 16px;
-	}
-	.subscribe {
-		max-width:100%;
-		left: 2%;
 	}
 }
 
